@@ -1,0 +1,426 @@
+body {
+	background-color: #F6F6F3;
+}
+
+#about a {
+	font-family: "alda", serif;
+	color: #C5C1BF;
+	font-size: 1.25em;
+	transition: .5s ease;
+}
+
+#about a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+
+.navbar {
+	font-family: "alda", serif;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+
+.dropdown-menu {
+	border-radius: 0;
+	border-style: none;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.dropdown-item {
+	color: #C5C1BF;
+	transition: .5s ease;
+}
+
+.dropdown-item.active {
+	background-color: #B4D897;
+	color: #333333;
+}
+
+.dropdown-egazini:hover {
+	background-color: #F9CD9F;
+}
+
+.dropdown-sport:hover {
+	background-color: #B4D897;
+}
+
+.dropdown-religion:hover {
+	background-color: #95CED3;
+}
+
+.dropdown-music:hover {
+	background-color: #F5C1D7;
+}
+
+.dropdown-art:hover {
+	background-color: #B69FF9;
+}
+
+.navbar-brand {
+	transition: .5s ease;
+	color: #C5C1BF;
+}
+
+.navbar-brand:hover {
+	color: #F6F6F3;
+}
+
+nav {
+	height: 60px;
+	background-color: rgba(51, 51, 51, .75);
+}
+
+.navbar .nav-link {
+	color: #C5C1BF;
+	opacity: 1; 
+	transition: 1s ease;
+}
+
+.navbar .nav-link:hover {
+	text-decoration: underline;
+	color: #F6F6F3;
+}
+
+.bgimage {
+  width:100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  z-index: 0;
+  position: relative;
+}
+
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+  z-index: 1;
+  position: absolute;
+  bottom: 200px;
+}
+
+.hero {
+}
+
+.hero-text {
+	color: white;
+	z-index: 1;
+	position: absolute;
+	bottom: 200px;
+}
+
+.scroll-text {
+	display: block;
+	color: #C5C1BF;
+	font-size: .75em;
+	position: absolute;
+	text-align: center;
+	bottom: 50px;
+	width: 100%;
+	left: 0;
+	
+}
+
+.btn {
+	border-radius: 0;
+}
+
+h1 {
+	font-family: "alda",serif;
+	font-style: italic;
+	font-weight: 300;
+}
+
+h2 {
+	font-family: "alda",serif;
+	font-style: italic;
+	font-weight: 300;
+}
+
+p {
+	font-family: "alda",serif;
+}
+
+
+.newyears-img {
+	width:100%;
+  	height: 500px;
+  	backface-visibility: hidden;
+  	background: url('sport.png');
+  	background-repeat: no-repeat;
+  	background-position: top;
+  	background-size:cover;
+  	background-attachment: scroll;
+  	opacity: 1;
+  	position: relative;
+}
+
+
+.newyears-block {
+	margin-top: 100px;
+
+}
+
+button {
+	font-family: "alda", serif;
+}
+
+.newyears-title {
+	margin-top: 25px;
+	transition: .5s ease;
+	transition-delay: .1s;
+}
+
+.newyears-blurb {
+	margin-top: 25px;
+}
+
+.newyears-tag {
+	padding: 5px;
+	height: 25px;
+	background-color: #C5C1BF;
+	font-size: .5em;
+	transition: .5s ease;
+	width: 20%;
+	margin-top: 100px;
+	
+}
+
+.newyears-desc {
+
+}
+
+.newyears-text {
+	transition: .5s ease;
+	transition-delay: .3s;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #C5C1BF;
+}
+
+
+
+
+.newyears-btn {
+	margin-top: 25px;
+	color: #C5C1BF;
+	border-color: #C5C1BF;
+	transition: .5s ease;
+	transition-delay: .2s;
+}
+
+.newyears-text:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #B4D897;
+}
+
+.newyears-text:hover .newyears-title {
+	color: #B4D897;
+}
+
+.newyears-text:hover .newyears-title:hover {
+	color: #B4D897;
+
+}
+
+.newyears-text:hover .newyears-tag {
+	background-color: #B4D897;
+}
+
+.newyears-text:hover .newyears-btn {
+	color: #B4D897;
+	border-color: #B4D897;
+}
+
+.newyears-text:hover .newyears-btn:hover {
+	color: #333333;
+	border-color: #B4D897;
+	background-color: #B4D897;
+}
+
+.boxing-img {
+	width:100%;
+  	height: 369px;
+  	background: url('boxing.png');
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size:cover;
+  	background-attachment: scroll;
+  	margin-bottom: 25px;
+  	margin-top: 25px;
+}
+
+.boxing-title {
+	margin-top: 25px;
+	transition: .5s ease;
+	transition-delay: .1s;
+}
+
+.boxing-blurb {
+	margin-top: 25px;
+}
+
+.boxing-tag {
+	padding: 5px;
+	height: 25px;
+	background-color: #C5C1BF;
+	font-size: .5em;
+	transition: .5s ease;
+	width: 20%;
+	
+}
+
+.boxing-desc {
+
+}
+
+.boxing-text {
+	transition: .5s ease;
+	transition-delay: .3s;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #C5C1BF;
+}
+
+
+
+
+.boxing-btn {
+	margin-top: 25px;
+	color: #C5C1BF;
+	border-color: #C5C1BF;
+	transition: .5s ease;
+	transition-delay: .2s;
+	margin-bottom: 25px;
+}
+
+.boxing-text:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #B4D897;
+}
+
+.boxing-text:hover .boxing-title {
+	color: #B4D897;
+}
+
+.boxing-text:hover .boxing-title:hover {
+	color: #B4D897;
+
+}
+
+.boxing-text:hover .boxing-tag {
+	background-color: #B4D897;
+}
+
+.boxing-text:hover .boxing-btn {
+	color: #B4D897;
+	border-color: #B4D897;
+}
+
+.boxing-text:hover .boxing-btn:hover {
+	color: #333333;
+	border-color: #B4D897;
+	background-color: #B4D897;
+}
+
+
+.football-img {
+	width:100%;
+  	height: 369px;
+  	background: url('religion-img.jpg');
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size:cover;
+  	background-attachment: scroll;
+  	margin-bottom: 25px;
+  	margin-top: 25px;
+}
+
+.football-title {
+	margin-top: 25px;
+	transition: .5s ease;
+	transition-delay: .1s;
+}
+
+.football-blurb {
+	margin-top: 25px;
+}
+
+.football-tag {
+	padding: 5px;
+	height: 25px;
+	background-color: #C5C1BF;
+	font-size: .5em;
+	transition: .5s ease;
+	width: 20%;
+}
+
+.football-desc {
+
+}
+
+.football-text {
+	transition: .5s ease;
+	transition-delay: .3s;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #C5C1BF;
+}
+
+
+
+
+.football-btn {
+	margin-top: 25px;
+	color: #C5C1BF;
+	border-color: #C5C1BF;
+	transition: .5s ease;
+	transition-delay: .2s;
+	margin-bottom: 25px;
+}
+
+.football-text:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #B4D897;
+}
+
+.football-text:hover .football-title {
+	color: #B4D897;
+}
+
+.football-text:hover .football-title:hover {
+	color: #B4D897;
+
+}
+
+.football-text:hover .football-tag {
+	background-color: #B4D897;
+}
+
+.football-text:hover .football-btn {
+	color: #B4D897;
+	border-color: #B4D897;
+}
+
+.football-text:hover .football-btn:hover {
+	color: #333333;
+	border-color: #B4D897;
+	background-color: #B4D897;
+}
+
+
+
+footer {
+	background-color: #C5C1BF;
+	width: 100%;
+	height: 500px;
+	margin-top: 100px;
+}

@@ -1,0 +1,634 @@
+body {
+	background-color: #F6F6F3;
+}
+
+#about a {
+	font-family: "alda", serif;
+	color: #C5C1BF;
+	font-size: 1.25em;
+	transition: .5s ease;
+}
+
+#about a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+
+#about a:active {
+	color: #333333;
+	text-decoration: underline;
+}
+
+.navbar {
+	font-family: "alda", serif;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0px;
+	z-index: 100;
+	width: 100%;
+	margin-top: -6px;
+}
+
+
+.dropdown-menu {
+	border-radius: 0;
+	border-style: none;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.dropdown-item {
+	color: #C5C1BF;
+	transition: .5s ease;
+}
+
+.dropdown-item.active {
+	background-color: #B4D897;
+	color: #333333;
+}
+
+.dropdown-egazini:hover {
+	background-color: #F9CD9F;
+}
+
+.dropdown-sport:hover {
+	background-color: #B4D897;
+}
+
+.dropdown-religion:hover {
+	background-color: #95CED3;
+}
+
+.dropdown-music:hover {
+	background-color: #F5C1D7;
+}
+
+.dropdown-art:hover {
+	background-color: #B69FF9;
+}
+
+.navbar-brand {
+	transition: .5s ease;
+	color: #C5C1BF;
+}
+
+.navbar-brand:hover {
+	color: #F6F6F3;
+}
+
+nav {
+	height: 60px;
+	background-color: rgba(51, 51, 51, 1);
+}
+
+.navbar .nav-link {
+	color: #C5C1BF;
+	opacity: 1; 
+	transition: 1s ease;
+}
+
+.navbar .nav-link:hover {
+	text-decoration: underline;
+	color: #F6F6F3;
+}
+
+
+
+.bgimage {
+  width:100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  z-index: 0;
+  position: relative;
+}
+
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+  z-index: 1;
+  position: absolute;
+  bottom: 200px;
+}
+
+.hero {
+}
+
+.hero-text {
+	color: white;
+	z-index: 1;
+	position: absolute;
+	bottom: 200px;
+}
+
+.scroll-text {
+	display: block;
+	color: #C5C1BF;
+	font-size: .75em;
+	position: absolute;
+	text-align: center;
+	bottom: 50px;
+	width: 100%;
+	left: 0;
+	
+}
+
+.btn {
+	border-radius: 0;
+}
+
+h1 {
+	font-family: "alda",serif;
+	font-style: italic;
+	font-weight: 300;
+}
+
+h2 {
+	font-family: "alda",serif;
+	font-style: italic;
+	font-weight: 300;
+}
+
+p {
+	font-family: "alda",serif;
+}
+
+#about {
+	width: 100%;
+	height: 1024;
+	margin-bottom: 100px;
+}
+
+.about-title {
+	margin-top: 100px;
+}
+
+.about-copy {
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.map {
+	margin-top: 50px;
+	border-style: solid;
+	border-color: #C5C1BF;
+	border-width: 1px;
+}
+
+.egazini-img {
+	width:100%;
+  	height: 500px;
+  	backface-visibility: hidden;
+  	background: url('egazini-img.jpg');
+  	background-repeat: no-repeat;
+  	background-position: top;
+  	background-size:cover;
+  	background-attachment: scroll;
+  	opacity: 1;
+  	position: relative;
+}
+
+
+.egazini-block {
+
+}
+
+button {
+	font-family: "alda", serif;
+}
+
+.egazini-title {
+	margin-top: 25px;
+	transition: .5s ease;
+	transition-delay: .1s;
+}
+
+.egazini-blurb {
+	margin-top: 15px;
+}
+
+.egazini-tag {
+	padding: 5px;
+	height: 25px;
+	background-color: #C5C1BF;
+	font-size: .5em;
+	transition: .5s ease;
+	width: 20%;
+	
+}
+
+.egazini-desc {
+
+}
+
+.egazini-text {
+	transition: .5s ease;
+	transition-delay: .3s;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #C5C1BF;
+	padding-bottom: 25px;
+
+}
+
+
+
+
+.egazini-btn {
+	margin-top: 25px;
+	color: #C5C1BF;
+	border-color: #C5C1BF;
+	transition: .5s ease;
+	transition-delay: .2s;
+}
+
+.egazini-text:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #F9CD9F;
+}
+
+.egazini-text:hover .egazini-title {
+	color: #333333;
+}
+
+.egazini-text:hover .egazini-title:hover {
+	color: #333333;
+
+}
+
+.egazini-text:hover .egazini-tag {
+	background-color: #F9CD9F;
+}
+
+.egazini-text:hover .egazini-btn {
+	color: #F9CD9F;
+	border-color: #F9CD9F;
+}
+
+.egazini-text:hover .egazini-btn:hover {
+	color: #333333;
+	border-color: #F9CD9F;
+	background-color: #F9CD9F;
+}
+
+.sport-img {
+	width:100%;
+  	height: 369px;
+  	background: url('sport-img.jpg');
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size:cover;
+  	background-attachment: scroll;
+  	margin-bottom: 25px;
+  	margin-top: 25px;
+}
+
+.sport-title {
+	margin-top: 25px;
+	transition: .5s ease;
+	transition-delay: .1s;
+}
+
+.sport-blurb {
+	margin-top: 15px;
+}
+
+.sport-tag {
+	padding: 5px;
+	height: 25px;
+	background-color: #C5C1BF;
+	font-size: .5em;
+	transition: .5s ease;
+	width: 20%;
+	
+}
+
+.sport-desc {
+
+}
+
+.sport-text {
+	transition: .5s ease;
+	transition-delay: .3s;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #C5C1BF;
+}
+
+
+
+
+.sport-btn {
+	margin-top: 25px;
+	color: #C5C1BF;
+	border-color: #C5C1BF;
+	transition: .5s ease;
+	transition-delay: .2s;
+	margin-bottom: 25px;
+}
+
+.sport-text:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #B4D897;
+}
+
+.sport-text:hover .sport-title {
+	color: #333333;
+}
+
+.sport-text:hover .sport-title:hover {
+	color: #333333;
+
+}
+
+.sport-text:hover .sport-tag {
+	background-color: #B4D897;
+}
+
+.sport-text:hover .sport-btn {
+	color: #B4D897;
+	border-color: #B4D897;
+}
+
+.sport-text:hover .sport-btn:hover {
+	color: #333333;
+	border-color: #B4D897;
+	background-color: #B4D897;
+}
+
+
+.religion-img {
+	width:100%;
+  	height: 369px;
+  	background: url('religion-img.jpg');
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size:cover;
+  	background-attachment: scroll;
+  	margin-bottom: 25px;
+  	margin-top: 25px;
+}
+
+.religion-title {
+	margin-top: 25px;
+	transition: .5s ease;
+	transition-delay: .1s;
+}
+
+.religion-blurb {
+	margin-top: 15px;
+}
+
+.religion-tag {
+	padding: 5px;
+	height: 25px;
+	background-color: #C5C1BF;
+	font-size: .5em;
+	transition: .5s ease;
+	width: 20%;
+	
+}
+
+.religion-desc {
+
+}
+
+.religion-text {
+	transition: .5s ease;
+	transition-delay: .3s;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #C5C1BF;
+}
+
+
+
+
+.religion-btn {
+	margin-top: 25px;
+	color: #C5C1BF;
+	border-color: #C5C1BF;
+	transition: .5s ease;
+	transition-delay: .2s;
+	margin-bottom: 25px;
+}
+
+.religion-text:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #95CED3;
+}
+
+.religion-text:hover .religion-title {
+	color: #333333;
+}
+
+.religion-text:hover .religion-title:hover {
+	color: #333333;
+
+}
+
+.religion-text:hover .religion-tag {
+	background-color: #95CED3;
+}
+
+.religion-text:hover .religion-btn {
+	color: #95CED3;
+	border-color: #95CED3;
+}
+
+.religion-text:hover .religion-btn:hover {
+	color: #333333;
+	border-color: #95CED3;
+	background-color: #95CED3;
+}
+
+
+.music-img {
+	width:100%;
+  	height: 369px;
+  	background: url('music-img.jpg');
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size:cover;
+  	background-attachment: scroll;
+  	margin-bottom: 25px;
+  	margin-top: 50px;
+}
+
+.music-title {
+	margin-top: 25px;
+	transition: .5s ease;
+	transition-delay: .1s;
+}
+
+.music-blurb {
+	margin-top: 15px;
+}
+
+.music-tag {
+	padding: 5px;
+	height: 25px;
+	background-color: #C5C1BF;
+	font-size: .5em;
+	transition: .5s ease;
+	width: 20%;
+	
+}
+
+.music-desc {
+
+}
+
+.music-text {
+	transition: .5s ease;
+	transition-delay: .3s;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #C5C1BF;
+}
+
+
+
+
+.music-btn {
+	margin-top: 25px;
+	color: #C5C1BF;
+	border-color: #C5C1BF;
+	transition: .5s ease;
+	transition-delay: .2s;
+	margin-bottom: 25px;
+}
+
+.music-text:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #F5C1D7;
+}
+
+.music-text:hover .music-title {
+	color: #333333;
+}
+
+.music-text:hover .music-title:hover {
+	color: #333333;
+
+}
+
+.music-text:hover .music-tag {
+	background-color: #F5C1D7;
+}
+
+.music-text:hover .music-btn {
+	color: #F5C1D7;
+	border-color: #F5C1D7;
+}
+
+.music-text:hover .music-btn:hover {
+	color: #333333;
+	border-color: #F5C1D7;
+	background-color: #F5C1D7;
+}
+
+.art-img {
+	width:100%;
+  	height: 369px;
+  	background: url('art-img.jpg');
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size:cover;
+  	background-attachment: scroll;
+  	margin-bottom: 25px;
+  	margin-top: 50px;
+}
+
+.art-title {
+	margin-top: 25px;
+	transition: .5s ease;
+	transition-delay: .1s;
+}
+
+.art-blurb {
+	margin-top: 15px;
+}
+
+.art-tag {
+	padding: 5px;
+	height: 25px;
+	background-color: #C5C1BF;
+	font-size: .5em;
+	transition: .5s ease;
+	width: 20%;
+	
+}
+
+.art-desc {
+
+}
+
+.art-text {
+	transition: .5s ease;
+	transition-delay: .3s;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #C5C1BF;
+	margin-bottom: 100px;
+}
+
+
+
+
+.art-btn {
+	margin-top: 25px;
+	color: #C5C1BF;
+	border-color: #C5C1BF;
+	transition: .5s ease;
+	transition-delay: .2s;
+	margin-bottom: 25px;
+}
+
+.art-text:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: #B69FF9;
+}
+
+.art-text:hover .art-title {
+	color: #333333;
+}
+
+.art-text:hover .art-title:hover {
+	color: #333333;
+
+}
+
+.art-text:hover .art-tag {
+	background-color: #B69FF9;
+}
+
+.art-text:hover .art-btn {
+	color: #B69FF9;
+	border-color: #B69FF9;
+}
+
+.art-text:hover .art-btn:hover {
+	color: #333333;
+	border-color: #B69FF9;
+	background-color: #B69FF9;
+}
+
+footer {
+	background-color: #C5C1BF;
+	width: 100%;
+	height: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+ 	.egazini-tag {margin-top: 25px;}
+ }
